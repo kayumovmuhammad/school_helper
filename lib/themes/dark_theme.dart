@@ -44,5 +44,5 @@ var darkThemeData = ThemeData(
   dialogTheme: DialogThemeData(
     backgroundColor: const Color.fromARGB(255, 51, 51, 51),
   ),
-  cardTheme: CardTheme(color: Color.fromARGB(255, 50, 50, 50)),
+  cardTheme: CardThemeData(color: Color.fromARGB(255, 50, 50, 50)),
 );

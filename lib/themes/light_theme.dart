@@ -46,7 +46,7 @@ var lightThemeData = ThemeData(
   dialogTheme: DialogThemeData(
     backgroundColor: const Color.fromARGB(255, 255, 255, 255),
   ),
-  cardTheme: CardTheme(color: Colors.white),
+  cardTheme: CardThemeData(color: Colors.white),
 );
 
 extension ThemeExtension on ThemeData {
